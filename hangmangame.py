@@ -8,7 +8,7 @@ lives = 6
 print(logo)
 
 chosen_word = random.choice(word_list)
-print(chosen_word)
+
 
 placeholder = ""
 word_length = len(chosen_word)
@@ -50,7 +50,7 @@ while not game_over:
             game_over = True
 
            
-            print(f"***********************{correct_letters}**********************")
+            print(f"***********************It was {chosen_word}!You Lose!**********************")
 
     if "_" not in display:
         game_over = True
